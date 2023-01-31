@@ -1,0 +1,46 @@
+body {
+    /*color: red;*/
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    margin: 30px auto;
+}
+
+.reclangles-container {
+    display: flex;
+}
+
+.rectangle {
+    min-height: 100px;
+    width: 50%;
+}
+
+.background-color-opacity {
+    background-color: #00ffff;
+    opacity: 0.5;
+}
+
+.background-color-rgba {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+.font-em {
+    font-size: 0.7em;
+}
+/*
+ABSOLUTOS
+- Pixel max-width, min-width, max-height, min-height
+- vh/vw -> vh min-height: 100vh;
+RELATIVOS
+- em 
+- rem
+- %
+*/
+.font-rem {
+    font-size: 0.7rem; /*Fuentes, margenes y paddings*/
+}
